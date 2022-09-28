@@ -1,0 +1,22 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lambda": "npx playwright test --headed --project lambda",
+    "debug": "npx playwright test --debug --project lambda",
+    "report": "npx playwright show-report",
+    "trace": "npx playwright show-trace trace.zip"
+     
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.25.1"
+  },
+  "dependencies": {
+    "dotenv": "16.0.1"
+  }
+}
